@@ -1,0 +1,20 @@
+{
+  "name": "unfollowrs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "followers",
+    "unfollowers",
+    "fans"
+  ],
+  "author": "Yaroslav Ilin <nilfalse@yandex.com>",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.75.0"
+  }
+}
