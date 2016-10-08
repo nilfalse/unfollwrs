@@ -15,6 +15,7 @@
   "author": "Yaroslav Ilin <nilfalse@yandex.com>",
   "license": "ISC",
   "dependencies": {
+    "mongoose": "^4.6.3",
     "request": "^2.75.0"
   }
 }
