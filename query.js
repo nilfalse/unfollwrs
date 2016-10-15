@@ -10,7 +10,7 @@ function queryTwitterAPI(endpoint, cb, cursor = '-1') {
             qs: {
                 cursor: cursor,
                 stringify_ids: true,
-                screen_name: config.twitter.screen_name
+                user_id: config.twitter.user_id
             },
             json: true,
             headers: { 'Authorization': 'Bearer ' + config.twitter.token }
