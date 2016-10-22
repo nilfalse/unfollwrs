@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "recent:serve": "pm2 start server.js --name 'unfollowers-recent-api'",
+    "recent:die": "pm2 stop 'unfollowers-recent-api'"
   },
   "keywords": [
     "twitter",
